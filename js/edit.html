@@ -3,12 +3,14 @@
 	<head>
 
 		<script src = "js/Script.js"></script>
-		 <title>Tech Mentors| Delete User</title>
+		 <title>The conference | Edit User</title>
 
 
 
         <link rel="stylesheet" href="styles/styles.css" >
 	</head>
+
+
 
 	<body>
 
@@ -18,40 +20,61 @@
 
                 <ul>
 
-									<li><a href="index.html">HOME</a></li>
 
-				<li><a href="degree.html">DEGREE</a></li>
+									                  <li><a href="index.html">HOME</a></li>
 
-									<li><a href="diploma.html">DIPLOMA</a></li>
+									        <li><a href="degree.html">DEGREE</a></li>
 
-				<li><a href="contact.html">CONTACT US</a></li>
+									                  <li><a href="diploma.html">DIPLOMA</a></li>
 
-				<li><a href="reviews.html">REVIEWS</a></li>
+									        <li><a href="contact.html">CONTACT US</a></li>
 
-				<li><a href="useracc.html">USER</a></li>
+									        <li><a href="reviews.html">REVIEWS</a></li>
 
-									<li><a href="about.html">ABOUT</a></li>
+									        <li><a href="useracc.html">USER</a></li>
+
+									                  <li><a href="about.html">ABOUT</a></li>
+
+
+
 
                 </ul>
 
             </nav>
 
-            <h1 class="web-name web-name-large">E conference</h1>
+            <h1 class="web-name web-name-large">Tech Mentors</h1>
 
         </header>
 
 <center>
-		<h2> Delete User Account </h2>
+		<h2> Edit User Account </h2>
 </center>
 
 		<div align="center" class="frame">
 			<form onsubmit="return checkPassword()">
 
 
-				Current Password:<br>
+				Company department:<br>
+				<input type="text" name="lastname"><br>
+
+				Satus:<br>
+				<input type="text" name="lastname"><br>
+
+				Mobile number:<br>
+				<input type="text" name="mobile" required  pattern="[0-9]{10}" title="Please enter 10 digits." ><br>
+
+				E-mail:<br>
+				<input type="email" name="email" placeholder="group1@abc.com" ><br>
+
+				Address:<br>
+				<textarea name="address" rows="8" cols="50"></textarea> <br>
+
+
+
+				New Password:<br>
 				<input type ="password" name="pwd1" id = "pwd1" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" title="Must contain at least one number , one uppercase and lowercase x 10 times"><br>
 
-				Conform Password<br>
+				Conform New Password<br>
 				<input type = "password" name ="ped2"  id="pwd2" ><br>
 				<input type ="checkBox" name="chkTerms" id="chkTerms" onchange="acceptTems()">accept privacy policy and terms
 
@@ -61,10 +84,12 @@
 				<br><br>
 		 </div>
 			</form>
-			<center><p>*click submit to delete your account </p></center>
+			<center><p>*If you want to change your name,please resgister as a new member </p>
+					<p> after deleting current account </p>
+
+			</center>
 
 			<br><br>
-
 
 
 
