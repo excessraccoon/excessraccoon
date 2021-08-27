@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700'); /* defalt font */
+
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+/* styles for all pages*/
+
+/* defineing the fonts */
+@font-face {
+
+    font-family: "Booter - Zero Zero";
+
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+
+
+* {
+
+    box-sizing: border-box;
+
+    font-family: Raleway;
+
+    color: #777;
+
+}
+
+html, body {
+
+    margin: 0;
+
+    padding: 0;
+
+    min-height: 100%;
+
+}
+
+
+
+.nav ul {
+
+    margin: 0;
+
+}
+
+
+
+.nav li {
+
+    display: inline;
+
+}
+
+
+
+.nav a {
+
+    display: inline-block;
+
+    padding: .5em;
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+
+
+.main-nav {
+
+    text-align: center;
+
+    font-size: 1.1em;
+
+    font-weight: lighter;
+
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+
+}
+
+
+
+.main-nav li {
+
+    padding: 0 5%;
+
+}
+
+
+
+.nav a:hover {
+
+    background-color: rgba(255, 255, 255, .3)
+
+}
+
+
+
+.main-header {
+
+    background-color: rgb(10, 0, 20);
+
+
+
+    background-blend-mode: multiply;
+
+    background-size: cover;
+
+    padding-bottom: 30px;
+
+}
+
+
+
+.web-name {
+
+    text-align: center;
+
+    margin: 0;
+
+    font-size: 1em;
+
+  /*  font-family: "Booter - Zero Zero"; */
+
+    font-weight: normal;
+
+    color: white;
+
+}
+
+
+
+.web-name-large {
+
+    font-size: 8em;
+
+}
+
+
+
+.content-section {
+
+    margin: 1em;
+
+}
+
+
+
+.container {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 0 1.5em;
+
+}
+
+.section-header {
+
+    font-family: "Metal Mania";
+
+    font-weight: normal;
+
+    color: #333;
+
+    text-align: center;
+
+    font-size: 2.5em;
+
+}
+
+/*About and Contact Image */
+
+.about-web-image {
+
+    float: left;
+
+    height: 200px;
+
+    width: 200px;
+
+    margin: 15px;
+
+    border-radius: 50%;
+
+}
+
+/* footer */
+
+.main-footer {
+
+    background-color: #E0E0E0;
+
+    color: white;
+
+    padding: .25em 0;
+
+}
+
+
+
+.main-footer-container {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+.main-footer-container ul {
+
+    flex-grow: 1;
+
+    text-align: end;
+
+}
+
+
+
+.footer-nav li {
+
+    padding: 0 .5em;
+
+}
+
+
+
+.footer-nav img {
+
+    width: 30px;
+
+    height: 30px;
+
+}
+
+
+
+.btn {
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    padding: .67em .67em;
+
+    cursor: pointer;
+
+}
+
+/* header */
+
+.btn-header {
+
+    margin: .5em 10% 2em 10%;
+
+    color: white;
+
+    border: 2px solid #2D9CDB;
+
+    background-color: rgba(255, 255, 255, .1);
+
+    border-radius: 0;
+
+    font-size: 1.5em;
+
+    font-weight: lighter;
+
+    padding-left: 2em;
+
+    padding-right: 2em;
+
+}
+
+
+
+.btn-header:hover {
+
+    background-color: rgba(255, 255, 255, .3);
+
+}
+
+
+
+
+
+
+.btn-primary {
+
+    color: white;
+
+    background-color: #56CCF2;
+
+    border: none;
+
+    border-radius: .3em;
+
+    font-weight: bold;
+
+}
+
+
+
+.btn-primary:hover {
+
+    background-color: #2D9CDB;
+
+}
+
+/* tables used in home and time table */
+
+.meeting-row {
+
+    border-bottom: 1px solid black;
+
+    padding-bottom: 1em;
+
+    margin-bottom: 1em;
+
+}
+
+
+
+.meeting-row:last-child {
+
+    border: none;
+
+}
+
+
+
+.meeting-item {
+
+    display: inline-block;
+
+    padding-right: .5em;
+
+}
+
+
+
+.meeting-date {
+
+    color: #555;
+
+    width: 11%;
+
+    font-weight: bold;
+
+}
+
+
+
+.meeting-city {
+
+    width: 24%;
+
+}
+
+
+
+.meeting-arena {
+
+    width: 42%;
+
+}
+
+
+
+.meeting-btn {
+
+    max-width: 19%;
+
+}
+
+/* submit page*/
+
+.submit-item {
+
+    margin: 30px;
+
+}
+
+
+
+.submit-item-title {
+
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    font-size: 1.5em;
+
+    color: #333;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.submit-item-image {
+
+    height: 250px;
+
+}
+
+
+
+.submit-item-details {
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 5px;
+
+}
+
+
+
+
+.submit-items {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+}
+
+
+
+.review-header {
+
+    font-weight: bold;
+
+    font-size: 1.25em;
+
+    color: #333;
+
+}
+
+
+
+.review-column {
+
+    display: flex;
+
+    align-items: center;
+
+    border-bottom: 1px solid black;
+
+    margin-right: 1.5em;
+
+    padding-bottom: 10px;
+
+    margin-top: 10px;
+
+}
+
+
+
+.review-row {
+
+    display: flex;
+
+}
+
+
+
+.review-item {
+
+    width: 45%;
+
+}
+
+
+
+
+
+.review-item-title {
+
+    color: #333;
+
+    margin-left: .5em;
+
+    font-size: 1.2em;
+
+}
+
+
+
+.review-item-image {
+
+    width: 75px;
+
+    height: auto;
+
+    border-radius: 10px;
+
+}
+
+
+
+.btn-danger {
+
+    color: white;
+
+    background-color: #EB5757;
+
+    border: none;
+
+    border-radius: .3em;
+
+    font-weight: bold;
+
+}
+
+
+
+.btn-danger:hover {
+
+    background-color: #CC4C4C;
+
+}
+
+
+
+
+
+
+
+.review-row:last-child {
+
+    border-bottom: 1px solid black;
+
+}
+
+
+
+.review-row:last-child .review-column {
+
+    border: none;
+
+}
+
+
+
+
+
+.btn-submit2 {
+
+    display: block;
+
+    margin: 40px auto 80px auto;
+
+    font-size: 1.75em;
+
+}
+
+
+/* frame for registration , edit account , delete account , forgetten password  */
+
+  .frame{
+  border-style: solid;
+  border-width: 2px;
+  width:500px;
+  margin:auto;
+  background-color:#CCC;
+  border-radius:20px;
+  }
