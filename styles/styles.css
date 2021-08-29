@@ -1,31 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700'); /* defalt font */
+/*@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700'); /* defalt font */
 
-@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap')
 /* styles for all pages*/
 
-/* defineing the fonts */
+/* defineing the fonts
 @font-face {
 
-    font-family: "Booter - Zero Zero";
+    font-family: myFirstFont;
 
-    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+    src: url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
 
-         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+
 
     font-weight: normal;
 
     font-style: normal;
 
+}*/
+@font-face {
+  font-family: myFirstFont;
+  src: url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
 }
-
+@font-face {
+  font-family: myFirstFont;
+  src: url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+  font-weight: bold;
+}
 
 
 * {
 
     box-sizing: border-box;
 
-    font-family: Raleway;
+    font-family: myFirstFont;
 
     color: #777;
 
@@ -159,13 +167,15 @@ html, body {
 
     margin: 0 auto;
 
-    padding: 0 1.5em;
+    padding: 0em;
 
 }
 
-.section-header {
+.section-header   /*topic of the page eg-our batches*/
 
-    font-family: "Hina Mincho";
+ {
+
+    font-family: myFirstFont;
 
     font-weight: normal;
 
@@ -214,10 +224,13 @@ html, body {
     align-items: center;
 
 }
+.footer-about{ /*to move footer down*/
+  margin-top: 100px;
+
+}
 
 
-
-.main-footer-container ul {
+.main-footer-container ul {/*selects ul elements inside the given class*/
 
     flex-grow: 1;
 
@@ -257,7 +270,7 @@ html, body {
 
 }
 
-/* header */
+/* header
 
 .btn-header {
 
@@ -287,7 +300,7 @@ html, body {
 
     background-color: rgba(255, 255, 255, .3);
 
-}
+}*/
 
 
 
@@ -342,17 +355,17 @@ html, body {
 
     display: inline-block;
 
-    padding-right: .5em;
+    padding-right: 2.5em; /*em is size of a font, a unit used in css*/
 
 }
 
 
 
-.meeting-date {
+.meeting-date { /*programme name column*/
 
     color: #555;
 
-    width: 11%;
+    width: 40%;
 
     font-weight: bold;
 
@@ -360,19 +373,19 @@ html, body {
 
 
 
-.meeting-city {
+.meeting-city {   /*programme name description column*/
 
-    width: 24%;
+    width: 34%;
 
 }
 
 
-
+/*
 .meeting-arena {
 
     width: 42%;
 
-}
+}*/
 
 
 
@@ -382,7 +395,7 @@ html, body {
 
 }
 
-/* submit page*/
+/* submit page
 
 .submit-item {
 
@@ -442,7 +455,7 @@ html, body {
     justify-content: space-around;
 
 }
-
+*/
 
 
 .review-header {
@@ -576,11 +589,11 @@ html, body {
 
 /* frame for registration , edit account , delete account , forgetten password  */
 
-  .frame{
+/*  .frame{
   border-style: solid;
   border-width: 2px;
   width:500px;
   margin:auto;
   background-color:#CCC;
   border-radius:20px;
-  }
+  }*/
