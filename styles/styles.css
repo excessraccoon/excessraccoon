@@ -1,23 +1,24 @@
 /*@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700'); /* defalt font */
-
-/*@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap')
+/*
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700'); /* defalt font */
+/*
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+/*@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap')
 /* styles for all pages*/
-
-/* defineing the fonts
+/*
 @font-face {
 
-    font-family: myFirstFont;
+    font-family: "Booter - Zero Zero";
 
-    src: url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
 
-
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
 
     font-weight: normal;
 
     font-style: normal;
 
-}*/
+} defineing the fonts
 @font-face {
   font-family: myFirstFont;
   src: url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
@@ -26,14 +27,14 @@
   font-family: myFirstFont;
   src: url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
   font-weight: bold;
-}
+}*/
 
 
 * {
 
     box-sizing: border-box;
 
-    font-family: myFirstFont;
+    font-family: sans-serif;
 
     color: #777;
 
@@ -59,7 +60,7 @@ html, body {
 
 
 
-.nav li {
+.nav li { /*Selects all <li> elements inside nav class*/
 
     display: inline;
 
@@ -135,7 +136,7 @@ html, body {
 
     font-size: 1em;
 
-  /*  font-family: "Booter - Zero Zero"; */
+   font-family: "Booter - Zero Zero";
 
     font-weight: normal;
 
@@ -191,7 +192,7 @@ html, body {
 
 .about-web-image {
 
-    float: left;
+    float: left ;
 
     height: 200px;
 
@@ -200,6 +201,8 @@ html, body {
     margin: 15px;
 
     border-radius: 50%;
+    clear: right;
+
 
 }
 

@@ -22,14 +22,14 @@ function acceptTems()
 	var chk = document.getElementById("chkTerms");
 	var sub = document.getElementById("btnSub");
 
-	if (chk.checked)
+	if (chk.checked)//whether checked is true
 	{
-		sub.disabled =false;
+		sub.disabled =false;// submit button is enabled
 
 	}
 	else
 	{
-	 sub.disabled=true;
+	 sub.disabled=true; //submit button is disabled
 	}
 
 }
